@@ -1,0 +1,45 @@
+<style type="text/css">
+  body {
+    background-color: #333333;
+  }
+  
+  .coolbutton {
+    border-style: none;
+    color: white;
+    border-radius: 7px;
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+    transition-duration: 0.3s;
+  }
+  
+  .coolbutton:hover {
+    width: 170px;
+    height: 65px;
+    font-size: 18px;
+  }
+  
+  .coolbutton:active {
+    font-size: 14px;
+    transition-duration: 0.1s;
+    width: 158px;
+    height: 58px;
+  }
+  
+  center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+</style>
+
+<center>
+  <input class="coolbutton" style="background-color: #428af5;" type="button" value="Blue">
+  <br><br>
+  <input class="coolbutton" style="background-color: #f5426f;" type="button" value="Red">
+  <br><br>
+  <input class="coolbutton" style="background-color: #42f590; color: black;" type="button" value="Green">
+</center>
